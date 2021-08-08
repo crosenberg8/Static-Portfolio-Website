@@ -43,7 +43,6 @@ body {
    text-rendering: optimizelegibility;
    font-size: 25px;
    font-family: 'Work Sans', "Helvetica Neue", Arial, sans-serif;
-   overflow-x: hidden;
 }
 
 p, ul, ol {
