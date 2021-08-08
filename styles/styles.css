@@ -1,0 +1,490 @@
+/* Designer Kahuan font*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+/* Nav bar Open Sans*/
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');*/
+/* Work Sans Light*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* Work Sans Regular*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/* Work Sans Bold */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+/* Work Sans Italic */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
+/* Work Sans Bold-Italic */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,700&display=swap');
+
+/* ===============================
+   Author: {Connor Rosenberg}
+   Date:   {December 23, 2020}
+   
+   Notes:
+   Hand coded this website from scratch.
+   
+   Colour Palette:
+   ---------------
+   White-ish:		      #eeeeee
+   Super Light Grey:    #d3d3d3
+   Light Grey:		      #686d76
+   Dark Grey:		      #373a40
+   Light Blue:		      #19d3da
+   =============================== */
+
+/* General */
+.container {
+   width: 900px;
+   margin: 0 auto;
+   padding: 0;
+}
+
+body {
+   background: #eeeeee;
+   color: #373a40;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   font-size: 25px;
+   font-family: 'Work Sans', "Helvetica Neue", Arial, sans-serif;
+}
+
+p, ul, ol {
+   line-height: 40px;
+}
+
+/* Typography */
+h1 {
+   margin: 0;
+   text-align: center;
+   text-transform: uppercase;
+   color: #19d3da;
+   font-weight: bold;
+   font-size: 80px;
+}
+
+
+h2 {
+   text-align: center;
+   font-weight: bold;
+   color: #19d3da;
+}
+
+h3 {
+   color: #19d3da;
+}
+
+h4 {
+   color: #ed2939;
+   margin-top: 30px;
+}
+
+#designer-word {
+   background-color: #eeeeee;
+   font-family: 'Kaushan Script';
+}
+
+@media only screen and (max-width:500px) {
+  #student-designer-programmer {
+      font-size: 3vw;
+   }
+
+   footer p {
+      font-size: 10px;
+   }
+}
+
+
+h2 code {
+   font-family: Courier;
+}
+
+nav a:link {
+   text-decoration: none;
+   color: #eeeeee;
+}
+
+nav a:visited {
+   color: #eeeeee;
+}
+
+
+/* Header */
+header {
+   background-color: #373a40;
+   height: 80px;
+}
+
+
+#logo {
+   float: left;
+   margin-left: 100px;
+   margin-top: 20px;
+   width: 40px;
+   height: 40px;
+}
+
+
+header nav ul {
+   margin: 0;
+   padding: 0;
+   line-height: 75px;
+   margin-left: 175px;
+}
+
+header nav ul li {
+   text-transform: uppercase;
+   padding: 0 30px;
+   display: inline-block;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+   list-style: none;
+   color: #eeeeee;
+}
+
+header::after {
+   content: '';
+   display: table;
+   clear: both;
+}
+
+nav a::before {
+   content: '';
+   display: block;
+   height: 5px;
+   width: 0%;
+   background-color: #19d3da;
+   transition: all ease-in-out 250ms;
+}
+
+nav a:hover {
+   color: #686d76;
+   transition-duration: 200ms;
+}
+
+nav a:hover::before {
+   width: 100%;
+}
+
+#logo:hover {
+   opacity: 0.5;
+   transition-duration: 200ms;
+}
+
+/* Hero */
+#hero {
+   background-color: #373a40;
+}
+
+/* ABOUT ME */
+hr {
+   margin: 15px;
+   background: #686d76;
+   height: 5px;
+}
+
+p {
+   margin: 0;
+   text-indent: 50px;
+}
+
+
+.about-me-text {
+   margin: 30px 30px;
+}
+
+.sub-headers {
+   text-align: center;
+   text-transform: uppercase;
+   margin: 10px 5px 10px 0;
+   text-decoration: underline;
+}
+
+
+.top-bar {
+   margin: 30px auto 10px auto;
+}
+
+.bottom-bar {
+   margin: 10px auto 30px auto;
+}
+
+.important-headers h1 {
+   margin: 0px;
+}
+
+.sub-header-information {
+   padding: 15px;
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+
+.sub-header-information em {
+   font-weight: bold;
+}
+
+.about-me-dl dl {
+   margin: 0px;
+}
+
+.about-me-dl dt {
+   color: #eeeeee;
+   background-color: #373a40;
+   padding: 5px 10px;
+   display: inline-block;
+   margin: 5px;
+   border-radius: 8px;
+}
+
+.about-me-dl dd {
+   background-color: #686d76;
+}
+
+.about-me-dl q {
+   font-weight: bold;
+   margin: 15px;  
+}
+
+.about-me-dl {
+   padding: 15px;
+}
+
+.info-text {
+   background-color: #e8e8e8;
+   border-radius: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+.bonus-round h3 {
+   text-decoration: underline;
+   margin-bottom: 0px;
+}
+
+.bonus-round ul {
+   margin-top: 5px;
+}
+
+
+/* Contact Form */
+
+#contact-form {
+   width: 80%;
+   margin: 50px auto;
+   background-color: #eeeeee;
+}
+
+
+
+#contact-form-legend {
+   padding: 5px 20px;
+   color: #eeeeee;
+   font-weight: bold;
+   background-color: #686d76;
+}
+
+fieldset {
+   margin: 0 auto;
+   padding: 15px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+   margin: 10px;
+   padding: 10px;
+   font-family: Work Sans;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   display: block;
+   width: 300px;
+   resize: none;
+}
+
+label {
+   font-weight: bold;
+   margin-left: 10px;
+}
+
+form textarea {
+   width: 500px;
+   height: 200px;
+}
+
+form input[type="submit"] {
+   border: none;
+   background: #bebebe;
+   margin: 10px;
+   height: 50px;
+   width: 100px;
+   border: solid 1px #bebebe;
+   color: white;
+   font-family: Work Sans;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+   transition-duration: 0.5s;
+   background-color: #19d3da;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* CS PROJECTS */
+.h1-headers hr {
+   margin: 20px 0;
+}
+
+
+.website-pictures {
+   display: block;
+   margin: 10px auto;
+   border: 4px solid #19d3da;
+}
+
+#the-agency {
+   background-color: #eeeeee;
+}
+
+#the-agency-link {
+   text-decoration: none;
+   color: #19d3da;
+}
+
+#the-agency-link:hover {
+   transition-duration: 250ms;
+   color: #686d76;
+}
+
+.picture-container {
+   padding:5px 0;
+   width: 100vw;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   background-color: #373a40;
+}
+
+.iframe-container {
+   width:51%;
+   margin: auto;
+}
+
+.project-title {
+   margin: 30px auto;
+}
+
+#strong-chappie {
+   color: #ff6600;
+}
+
+
+.project-download-link {
+   color: #eeeeee;
+}
+
+.project-download-link:hover {
+   color: #19d3da;
+   transition-duration: 200ms;
+}
+
+
+.download-section {
+   border-radius: 70px;
+   background-color: #686d76;
+   padding:15px 20px;
+}
+
+.cs-project-info {
+   margin: 30px;
+}
+
+.cs-project-info dt {
+   text-decoration: underline;
+   font-weight: bold;
+   margin-bottom: 10px;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 30px;
+}
+
+.cs-project-info dd {
+   color: #eeeeee;
+   text-align: center;
+}
+
+.cs-project-info h3 {
+   text-decoration: underline;
+   margin: 10px;
+}
+
+.cs-project-info ol,  .cs-project-info ul {
+   font-size: 25px;
+   margin: 10px;
+}
+
+.cs-project-info li {
+   margin: 10px;
+}
+
+.cs-project-info a, .bonus-round a {
+   color: #19d3da;
+}
+
+.cs-project-info a:hover, .bonus-round a:hover {
+   color: #eeeeee;
+   transition-duration: 300ms;
+}
+
+.skills-used {
+   padding: 0;
+   margin: 20px 20px 20px 0;
+}
+
+.skills-used p {
+   text-indent: 0;
+   font-weight: bold;
+}
+
+.skills-used ul {
+   margin: 5px;
+}
+
+.skills-used li {
+   margin-bottom: 10px;
+}
+
+.pTagsToUnderline {
+   text-decoration: underline;
+}
+
+.certificationLinks {
+   color: #373a40;
+   font-size: 20px;
+   padding: 4px 15px;
+}
+
+
+/* Footer */
+#main {
+   font-size: 20px;
+   background-color: #373a40;
+   margin-top: 100px;
+   padding: 10px;
+}
+
+footer p {
+   text-align: center;
+   margin-left: 50px;
+   margin-right: 50px;
+   color: #eeeeee;
+}
+
+footer em {
+   font-weight: bold;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
