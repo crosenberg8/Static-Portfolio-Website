@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: Main
-Class-Path: --module-path "C:\Users\crose\OneDrive\Desktop\official_port
- folio\password_generator\javafx-sdk-11.0.2\lib" --add-modules javafx.co
- ntrols,javafx.fxml
-
